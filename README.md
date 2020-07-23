@@ -8,7 +8,7 @@ PHP Cheat Sheet with the most needed stuff..
 ## Send email
 ```php
 <?PHP
-$sender = 'info@yourinternalmailserverhere.com';
+$sender = 'info@fromwhocamethemeial';
 $recipient = 'info@personwhorecivestheemail.com';
 
 $subject = "php mail test";
