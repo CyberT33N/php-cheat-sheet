@@ -72,7 +72,9 @@ $curl = curl_init($url);
 <br />
 <br />
 
-## Parse json
+# JSON
+
+## Parse JSON
 
 ```php
 //create object
