@@ -3,6 +3,52 @@ PHP Cheat Sheet with the most needed stuff..
 
 
 
+## Prevent public user from accessing php files
+```php
+// method #1
+// create in other document any element that will get sended via POST
+if( !isset($_POST['access']) ){
+   die('Direct access not permitted');
+}
+
+// method #2
+// use .htaccess
+// Deny from all
+```
+
+
+
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+## Check if element exist
+```php
+if( !isset($_POST['access']) ){
+   echo 'exist..';
+}
+```
+
+<br />
+<br />
+
+
+ _____________________________________________________
+ _____________________________________________________
+
+
+<br />
+<br />
+
+
 # Email
 
 ## Send email
