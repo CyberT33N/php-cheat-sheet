@@ -37,6 +37,28 @@ if( !isset($_POST['access']) ){
 }
 ```
 
+
+## Check if string contains specific text
+```php
+$a = 'How are you?';
+
+// method #1
+if (strlen(stristr($a,"are"))>0) {
+    echo "true"; // are Found
+ } 
+ 
+// method #2
+if (strpos($a, "are") !== false) {
+   echo "true"; // are Found
+ }
+ 
+// method #3
+ if( preg_match("are",$a) === 1) {
+   echo "true"; // are Found
+ }
+```
+
+
 <br />
 <br />
 
