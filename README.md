@@ -77,6 +77,14 @@ $curl = curl_init($url);
 ## Parse JSON
 
 ```php
+/*
+{
+  "success": true,
+  "challenge_ts": "2020-07-23T23:39:14Z",
+  "hostname": "testkey.google.com"
+}
+*/
+
 //create object
 $json = json_decode($data);
 echo "success: ".$json->success;
